@@ -6,7 +6,7 @@
 
 ## Website:
 
-- [click here]()
+- [click here](https://roddevwork.github.io/workshop-1-fetch-avocado/index.html)
 
 <kbd>
  <img src="public/img/home-page.png" alt="home page" width="200px">
