@@ -31,18 +31,16 @@ window.fetch(url)
       //crear titulo
       const titulo = document.createElement('h');
       titulo.textContent = item.name
-      titulo.className = 'pt-6 text-xl text-indigo-600 text-center font-bold'
+      titulo.className = 'pt-6 text-xl text-teal-300 text-center font-bold'
 
       //crear precio
       const precio = document.createElement('div');
-
-      // precio.textContent = `$${item.price}`
       precio.textContent = formatPrice(item.price)
-      precio.className = 'text-2xl font-medium'
+      precio.className = 'text-2xl font-medium text-amber-50'
 
       //crear contenedor
       const contenedor = document.createElement('div');
-      contenedor.className = 'text-center border-solid border-2 inline-block bg-blue-50 '
+      contenedor.className = 'text-center border-solid border-2 inline-block bg-lime-700 '
       contenedor.append(imagen, titulo, precio)
 
       todosLosItem.push(contenedor)
